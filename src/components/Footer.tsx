@@ -7,7 +7,7 @@ import {ArrowFatRight, TwitterLogo, LinkedinLogo, FacebookLogo} from "@phosphor-
 
 const Footer: React.FC = () => {
     return (
-        <footer className="py-[100px] px-[183px]">
+        <footer className="py-[100px] px-[183px] shadow-custom-top">
             <div className="flex justify-between mb-[35px]">
                 <div className="float-start">
                     <Image src={Logo} alt="logo" className="mb-5"/>
