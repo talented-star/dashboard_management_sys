@@ -11,7 +11,7 @@ interface headerProps {
 
 const Header: React.FC<headerProps> = ({ title }) => {
     return (
-        <header className="flex justify-between items-center py-[20px] px-[34px]" style={{width: "calc(100vw - 260px)"}}>
+        <header className="flex justify-between items-center py-[20px] px-[34px]" style={{width: "calc(100vw - 280px)"}}>
             <h3 className="text-[32px] leading-[37.5px] font-normal font-robot">{title}</h3>
             <div className="flex gap-[10px] items-center">
                 <input className="p-4 pl-12 leading-4 rounded-[55px] shadow-md focus:outline-none w-[330px]" placeholder="Search for anything..."></input>
