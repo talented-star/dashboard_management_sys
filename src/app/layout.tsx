@@ -20,8 +20,7 @@ export default function RootLayout({
       <body>
         <div className="flex">
           <SideBar />
-          <div>
-            <Header title={"DashBoard"} />
+          <div>            
             {children}
           </div>
         </div>

@@ -65,7 +65,7 @@ const sideBarItemList: SideBarBtnProps[] = [
 const SideBar: React.FC = () => {
     return (
         <div style={{width : "260px !important"}} className='border-r relative pt-[140px] px-7'>
-            <button className="top-8 -right-5 absolute border rounded-full p-2 bg-white text-black shadow-md hover:bg-gray-200 hover:text-white hover:shadow-lg">
+            <button className="top-6 -right-5 absolute border rounded-full p-2 bg-white text-black shadow-md hover:bg-gray-200 hover:text-white hover:shadow-lg">
                 <ChevronLeft />
             </button>
             {
