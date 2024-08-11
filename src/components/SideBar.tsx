@@ -2,13 +2,13 @@ import React from 'react';
 import { SideBarBtnProps } from './Mockdata';
 import SideBarButton from './SideBarButton';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
-import Dashboard from "../../public/dashboard.svg";
-import Tool from "../../public/tools.svg";
-import Subscription from "../../public/subscription.svg";
-import Integration from "../../public/integration.svg";
-import Reports from "../../public/reports.svg";
-import Security from "../../public/security.svg";
-import UserManagement from "../../public/userManagement.svg";
+import Dashboard from "../../public/Home/dashboard.svg";
+import Tool from "../../public/Home/tools.svg";
+import Subscription from "../../public/Home/subscription.svg";
+import Integration from "../../public/Home/integration.svg";
+import Reports from "../../public/Home/reports.svg";
+import Security from "../../public/Home/security.svg";
+import UserManagement from "../../public/Home/userManagement.svg";
 
 
 
