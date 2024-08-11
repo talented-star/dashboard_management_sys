@@ -1,7 +1,9 @@
+import { StaticImageData } from "next/image";
+
 export interface SideBarBtnProps {
   label: string;
   setStyle: boolean;
-  icon: React.ReactNode;
+  icon: string | StaticImageData;
   link: string;
 }
 
