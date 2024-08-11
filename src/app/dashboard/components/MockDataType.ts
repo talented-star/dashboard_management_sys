@@ -17,3 +17,10 @@ export interface CategoryData {
     progressive: number;
 }
 
+export interface ProjectData {
+    name: string;
+    manager: string;
+    dueStatus: Date;
+    status: string;
+    progress: number;
+}
