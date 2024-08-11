@@ -11,3 +11,9 @@ export interface DashboardCardData {
     width?: string;
 };
 
+export interface CategoryData {
+    color: string;
+    description: string;
+    progressive: number;
+}
+

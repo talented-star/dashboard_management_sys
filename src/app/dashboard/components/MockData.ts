@@ -1,9 +1,9 @@
-import { DashboardCardData } from "./MockDataType";
+import { DashboardCardData, CategoryData } from "./MockDataType";
 import CardIcon1 from "../../../../public/Dashboard/Card1.svg";
 import CardIcon2 from "../../../../public/Dashboard/Card2.svg";
 import CardIcon3 from "../../../../public/Dashboard/Card3.svg";
 
-export const DashboardCards: DashboardCardData[] = [
+const DashboardCards: DashboardCardData[] = [
   {
     title: "Tools",
     icon: CardIcon1,
@@ -32,3 +32,29 @@ export const DashboardCards: DashboardCardData[] = [
     width: "col-span-2"
   },
 ];
+
+const categoryData: CategoryData[] = [
+  {
+    color: "#2563EB",
+    description: "Key title goes here",
+    progressive: 40
+  },
+  {
+    color: "#C084FC",
+    description: "Key title goes here",
+    progressive: 60
+  },
+  {
+    color: "#FB923C",
+    description: "Key title goes here",
+    progressive: 100
+  },
+  {
+    color: "#22C55E",
+    description: "Key title goes here",
+    progressive: 20
+  }
+]
+
+
+export { DashboardCards, categoryData };
