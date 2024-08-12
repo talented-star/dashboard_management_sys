@@ -58,7 +58,7 @@ export function SubscriptionListTable<TData, TValue>({
   });
 
   return (
-    <div className="rounded-md">
+    <div className="rounded-md w-3/4">
       <div className="flex items-center py-4">
         <Input
           placeholder="Filter tools..."
@@ -66,11 +66,11 @@ export function SubscriptionListTable<TData, TValue>({
           onChange={(event) =>
             table.getColumn("tools")?.setFilterValue(event.target.value)
           }
-          className="max-w-sm"
+          className="max-w-sm focus:outline-none"
         />
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
-            <Button variant="outline" className="ml-auto">
+            <Button variant="outline" className="ml-auto focus:outline-none">
               Columns
             </Button>
           </DropdownMenuTrigger>
