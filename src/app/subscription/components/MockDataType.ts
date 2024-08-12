@@ -3,6 +3,7 @@ import { ColumnDef } from "@tanstack/react-table";
 
 export interface ButtonProps {
     title: string;
+    className?: string;
 }
 
 export interface SubscriptionData {
